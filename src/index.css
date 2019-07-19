@@ -13,4 +13,6 @@ code {
     monospace;
 }
 
-
+.MuiToolbar-root {
+  background-color: #383838!important;
+}
