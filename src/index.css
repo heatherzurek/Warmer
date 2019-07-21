@@ -17,3 +17,15 @@ code {
   background-color: #383838!important;
 }
 
+
+@media only screen and (min-width: 900px){
+  .card {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 700px) {
+
+
+  }
+}
