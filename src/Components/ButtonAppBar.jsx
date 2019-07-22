@@ -6,6 +6,8 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import { Link } from 'react-router-dom';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -20,6 +22,10 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function ButtonAppBar() {
+  const linkStyle = {
+    color: 'white',
+    textDecoration: 'none',
+  }
   const classes = useStyles();
 
   return (
@@ -32,7 +38,7 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             Warmer
           </Typography>
-          <Button color="inherit">About</Button>
+          { <Link style={linkStyle} to ="/prevention"><Button color="inherit">Prevent</Button></Link> }
           <Button color="inherit">Resources</Button>
         </Toolbar>
       </AppBar>

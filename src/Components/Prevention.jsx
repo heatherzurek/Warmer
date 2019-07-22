@@ -9,8 +9,11 @@ export default function Header(props) {
           width: '100%',
           backgroundColor: '#3b6853',
       }
+      const preventionStyles = {
+          margin: '0 auto',
+      }
     return (
-      <div>
+      <div className="preventionStyles">
       <h1>Climate Change Prevention</h1>
       <h2>Simple Steps With Huge Impact</h2>
       <div style={divStyles1}>

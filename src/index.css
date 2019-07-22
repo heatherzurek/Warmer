@@ -66,6 +66,13 @@ code {
   transform: rotateY(180deg);
 }
 
+.preventionStyles h2 {
+  left: 20px;
+}
+
+.preventionStyles h4 {
+  left: 20px;
+}
 
 
 @media only screen and (min-width: 900px){

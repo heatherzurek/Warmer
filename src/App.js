@@ -7,6 +7,9 @@ import Intro from './Components/Intro';
 import Footer from './Components/Footer';
 import Informational from './Components/Informational';
 import Prevention from './Components/Prevention';
+import { Switch, Route } from 'react-router-dom';
+
+
 
 class App extends React.Component {
   constructor(props) {
@@ -32,8 +35,11 @@ render(){
       <ButtonAppBar />
       <Header />
       <Intro />
-      <Informational />
-      <Prevention />
+      <Switch>
+      <Route exact path='/' component={Informational} />
+      <Route path='/prevention' component={Prevention} />
+
+      </Switch>
       <button onClick={this.incrementUp} className="counter">+</button>
       <button onClick={this.decrementDown} className="counter">-</button>
       <h2>{this.state.count}</h2>
