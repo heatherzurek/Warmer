@@ -1,19 +1,23 @@
 import React from 'react';
 
 export default function Header(props) {
+      const divStyles = {
+        color: '#FFFFFF',
+        textAlign: 'center',
+      }
       const divStyles1 = {
           width: '100%',
-          backgroundColor: '#7bb550',
+          backgroundColor: '#768b69',
+          color: '#FFFFFF',
       }
       const divStyles2 = {
           width: '100%',
-          backgroundColor: '#3b6853',
-      }
-      const preventionStyles = {
-          margin: '0 auto',
+          backgroundColor: '#6cadc9',
+          color: '#FFFFFF',
+
       }
     return (
-      <div className="preventionStyles">
+      <div style={divStyles}>
       <h1>Climate Change Prevention</h1>
       <h2>Simple Steps With Huge Impact</h2>
       <div style={divStyles1}>

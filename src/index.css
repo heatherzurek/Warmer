@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  /* background-color: lightblue; */
+  background-color: #4c4d62;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -55,23 +55,15 @@ code {
   /* background-image: url("https://images.unsplash.com/photo-1542067423794-1c9600c1efc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1466&q=80");
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color: #667f90;
+  background-color: #768b69;
   color: white;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #45586b;
+  background-color: #6cadc9;
   color: white;
   transform: rotateY(180deg);
-}
-
-.preventionStyles h2 {
-  left: 20px;
-}
-
-.preventionStyles h4 {
-  left: 20px;
 }
 
 

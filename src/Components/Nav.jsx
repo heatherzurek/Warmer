@@ -21,7 +21,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function ButtonAppBar() {
+export default function Nav() {
   const linkStyle = {
     color: 'white',
     textDecoration: 'none',
@@ -32,14 +32,15 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="Menu">
+          {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
           <Typography variant="h6" className={classes.title}>
-            Warmer
+          { <Link style={linkStyle} to ="/"><Button color="inherit">Warmer</Button></Link> }
+
           </Typography>
+          { <Link style={linkStyle} to ="/about"><Button color="inherit">About</Button></Link> }
           { <Link style={linkStyle} to ="/prevention"><Button color="inherit">Prevent</Button></Link> }
-          <Button color="inherit">Resources</Button>
         </Toolbar>
       </AppBar>
     </div>

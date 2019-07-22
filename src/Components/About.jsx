@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Header(props) {
+export default function About(props) {
     const layoutStyles = {
       display: 'flex',
       flexDirection: 'row',
@@ -9,9 +9,9 @@ export default function Header(props) {
 
     }
     const divStyles = {
-        color: "white",
-        backgroundColor: '#0000006b',
-        width: '250px',
+        // color: "white",
+        // backgroundColor: '#0000006b',
+        // width: '250px',
         margin: '100px auto'
       }
     const pStyles = {

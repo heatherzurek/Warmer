@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 // import { makeStyles } from '@material-ui/core/styles';
-import ButtonAppBar from './Components/ButtonAppBar';
-import Header from './Components/Header';
-import Intro from './Components/Intro';
 import Footer from './Components/Footer';
-import Informational from './Components/Informational';
+import About from './Components/About';
 import Prevention from './Components/Prevention';
 import { Switch, Route } from 'react-router-dom';
+import Splash from './Components/Splash';
+import Welcome from './Components/Welcome';
+import Nav from './Components/Nav';
 
 
 
@@ -32,17 +32,16 @@ class App extends React.Component {
 render(){
   return (
     <div>
-      <ButtonAppBar />
-      <Header />
-      <Intro />
+      <Nav />
+      <Splash />
       <Switch>
-      <Route exact path='/' component={Informational} />
+      <Route exact path='/' component={Welcome} />
       <Route path='/prevention' component={Prevention} />
-
+      <Route path='/about' component={About} />
       </Switch>
-      <button onClick={this.incrementUp} className="counter">+</button>
+      {/* <button onClick={this.incrementUp} className="counter">+</button>
       <button onClick={this.decrementDown} className="counter">-</button>
-      <h2>{this.state.count}</h2>
+      <h2>{this.state.count}</h2> */}
       <Footer />
 
       </div>
