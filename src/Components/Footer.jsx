@@ -5,7 +5,7 @@ export default function Footer(props) {
       }
     return (
         <div style={divStyles}>
-        <p>Footer</p>
+        <h1>I'm the footer component</h1>
         </div>
     )
 };

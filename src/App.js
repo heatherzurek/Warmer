@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import ButtonAppBar from './Components/ButtonAppBar';
 import Header from './Components/Header';
 import Intro from './Components/Intro';
 import Footer from './Components/Footer';
-import Links from './Components/Links';
-
+import Informational from './Components/Informational';
+import Prevention from './Components/Prevention';
 
 class App extends React.Component {
   constructor(props) {
@@ -14,26 +14,29 @@ class App extends React.Component {
     this.state = {
       count: 0
     }
+    this.incrementUp = this.incrementUp.bind(this);
+    this.decrementDown = this.decrementDown.bind(this);
   }
 
-  increment = () => {
+  incrementUp = () => {
     this.setState({ count: this.state.count + 1 });
   }
 
-  decrement = () => {
+  decrementDown = () => {
     this.setState({ count: this.state.count - 1 });
   }
 
 render(){
   return (
     <div>
-      <button onClick={this.increment} className="counter">+</button>
-      <button onClick={this.decrement} className="counter">-</button>
-      <h2>{this.state.count}</h2>
       <ButtonAppBar />
       <Header />
       <Intro />
-      <Links />
+      <Informational />
+      <Prevention />
+      <button onClick={this.incrementUp} className="counter">+</button>
+      <button onClick={this.decrementDown} className="counter">-</button>
+      <h2>{this.state.count}</h2>
       <Footer />
 
       </div>

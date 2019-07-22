@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: white;
+  /* background-color: lightblue; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -18,6 +18,56 @@ code {
 }
 
 
+
+.flip-card {
+  margin: 10px;
+  background-color: transparent;
+  width: 350px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  /* background-image: url("https://images.unsplash.com/photo-1542067423794-1c9600c1efc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1466&q=80");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #667f90;
+  color: white;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #45586b;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
 @media only screen and (min-width: 900px){
   .card {
   display: flex;
@@ -25,7 +75,9 @@ code {
 }
 
 @media only screen and (max-width: 700px) {
-
+.flip-card {
+  width: 95%;
+}
 
   }
 }
