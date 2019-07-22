@@ -1,5 +1,4 @@
 import React from 'react';
-import MediaCard from './MediaCard';
 
 export default function Header(props) {
     const h1Styles = {
@@ -9,7 +8,6 @@ export default function Header(props) {
       }
     return (
         <div>
-        <MediaCard />
         </div>
     )
 };
