@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #4c4d62;
+  color: #FFFFFF;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -75,7 +76,7 @@ code {
 
 @media only screen and (max-width: 700px) {
 .flip-card {
-  width: 95%;
+  width: 100%;
 }
 
   }

@@ -3,7 +3,7 @@ import './App.css';
 // import { makeStyles } from '@material-ui/core/styles';
 import Footer from './Components/Footer';
 import About from './Components/About';
-import Prevention from './Components/Prevention';
+import How from './Components/How';
 import { Switch, Route } from 'react-router-dom';
 import Splash from './Components/Splash';
 import Welcome from './Components/Welcome';
@@ -36,7 +36,7 @@ render(){
       <Splash />
       <Switch>
       <Route exact path='/' component={Welcome} />
-      <Route path='/prevention' component={Prevention} />
+      <Route path='/how' component={How} />
       <Route path='/about' component={About} />
       </Switch>
       {/* <button onClick={this.incrementUp} className="counter">+</button>

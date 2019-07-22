@@ -3,7 +3,7 @@ Warmer is an app dedicated to fighting **Climate Change**. The main goal of Warm
 
 <!-- [Warmer](#) -->
 
-<!-- ![Mock Up](mockup.png) -->
+![Component Tree](ComponentTree.png)
 
 - 8 - 9am: researched climate change data
 - 9 - 10am: used figma to create a rough mock up of layout

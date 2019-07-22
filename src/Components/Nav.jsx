@@ -4,8 +4,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+// import IconButton from '@material-ui/core/IconButton';
+// import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
 
 
@@ -40,7 +40,8 @@ export default function Nav() {
 
           </Typography>
           { <Link style={linkStyle} to ="/about"><Button color="inherit">About</Button></Link> }
-          { <Link style={linkStyle} to ="/prevention"><Button color="inherit">Prevent</Button></Link> }
+          { <Link style={linkStyle} to ="/how"><Button color="inherit">Prevent</Button></Link> }
+          { <Link style={linkStyle} to ="/profile"><Button color="inherit">Profile</Button></Link> }
         </Toolbar>
       </AppBar>
     </div>
