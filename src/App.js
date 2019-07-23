@@ -8,7 +8,7 @@ import { Switch, Route } from 'react-router-dom';
 import Splash from './Components/Splash';
 import Welcome from './Components/Welcome';
 import Nav from './Components/Nav';
-
+import Profile from './Components/Profile';
 
 
 class App extends React.Component {
@@ -38,6 +38,7 @@ render(){
       <Route exact path='/' component={Welcome} />
       <Route path='/how' component={How} />
       <Route path='/about' component={About} />
+      <Route path='/profile' component={Profile} />
       </Switch>
       {/* <button onClick={this.incrementUp} className="counter">+</button>
       <button onClick={this.decrementDown} className="counter">-</button>
