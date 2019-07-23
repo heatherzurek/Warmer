@@ -1,8 +1,11 @@
 # Warmer 
 Warmer is an app dedicated to fighting **Climate Change**. The main goal of Warmer is to allow you to see your every day impact on climate change whether it be big or small, and assist you in making practical changes to limit your footprint.
 
+<<<<<<< HEAD
 ![Component Tree](Mockup1.png)!
 
+=======
+>>>>>>> 17fa3ba0fe8a7cc7dcb25e143486373f53beb747
 <!-- [Warmer](#) -->
 
 ![Component Tree](ComponentTree.png)
@@ -22,7 +25,7 @@ Warmer is an app dedicated to fighting **Climate Change**. The main goal of Warm
  - Run `npm install`
  - Run `npm run start`
 
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
+![Mock up of app](Mockup1.png)
 
 ## Technologies Used
 `React, TypeScript, Html, CSS`
