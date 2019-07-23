@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import List from './List';
+import Change from './Change';
 
 export default class Profile extends Component {
 
@@ -26,12 +27,13 @@ export default class Profile extends Component {
   render() {
     return (
         <div>
-        <h3>Keep track of your progress</h3>
+        {/* <h3 className="h3style">Keep track of your progress</h3>
         <form className="App" onSubmit={this.onSubmit}>
           <input value={this.state.term} onChange={this.onChange} />
           <button>Submit</button>
         </form>
-        <List items={this.state.items} />
+        <List items={this.state.items} /> */}
+        <Change />
       </div>
     );
   }

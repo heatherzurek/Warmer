@@ -1,11 +1,8 @@
 # Warmer 
 Warmer is an app dedicated to fighting **Climate Change**. The main goal of Warmer is to allow you to see your every day impact on climate change whether it be big or small, and assist you in making practical changes to limit your footprint.
 
-<<<<<<< HEAD
 ![Component Tree](Mockup1.png)!
 
-=======
->>>>>>> 17fa3ba0fe8a7cc7dcb25e143486373f53beb747
 <!-- [Warmer](#) -->
 
 ![Component Tree](ComponentTree.png)

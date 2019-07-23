@@ -21,9 +21,11 @@ export default function Header(props) {
       <h1>Climate Change Prevention</h1>
       <h2>Simple Steps With Huge Impact</h2>
       <div style={divStyles1}>
+        <div>
         <h2>Conserve Water</h2>
         <h4>Not using it? Turn it off!</h4>
         <p>Saving water reduces carbon pollution, too. Thats because it takes a lot of energy to pump, heat, and treat your water. So take shorter showers, turn off the tap while brushing your teeth, and switch to WaterSense-labeled fixtures and appliances. The EPA estimates that if just one out of every 100 American homes were retrofitted with water-efficient fixtures, about 100 million kilowatt-hours of electricity per year would be saved—avoiding 80,000 tons of global warming pollution.</p>
+      </div>
       </div>
 
       <div style={divStyles2}>
