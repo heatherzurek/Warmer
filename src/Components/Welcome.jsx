@@ -1,5 +1,6 @@
 import React from 'react';
 import Intro from './Intro';
+import AnimatedTypingComponent from './AnimatedTypingComponent';
 
 export default function Welcome(props) {
       const divStyles = {
@@ -8,9 +9,8 @@ export default function Welcome(props) {
       }
     return (
     <div style={divStyles}>
-      <h1>Welcome, Whats your name?</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, blanditiis nemo! Odio pariatur quod aut officiis suscipit reiciendis a maxime, voluptatibus ratione modi provident! Delectus a esse inventore quam numquam?</p>
-
+      <AnimatedTypingComponent />
+      {/* <h1>Welcome, Whats your name?</h1> */}
       <Intro />
     </div>
 

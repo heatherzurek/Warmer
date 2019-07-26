@@ -13,6 +13,8 @@
     "react-router": "^5.0.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "3.0.1",
+    "react-typewriter-hook": "^1.0.0",
+    "react-typing-animation": "^1.6.2",
     "react-with-firebase-auth": "^1.0.3"
   },
   "scripts": {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import List from './List';
+// import List from './List';
 import Change from './Change';
 
 export default class Profile extends Component {
@@ -33,7 +33,7 @@ export default class Profile extends Component {
           <button>Submit</button>
         </form>
         <List items={this.state.items} /> */}
-        <Change />
+        <Change />        
       </div>
     );
   }
