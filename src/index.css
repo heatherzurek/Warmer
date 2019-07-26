@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 body {
   margin: 0;
   background-color: #4c4d62;
@@ -51,15 +53,25 @@ code {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Nanum Gothic', sans-serif;
+
   background-color: #768b69;
-  color: white;
+  color: #000000;
+  font-size: 1.2em;
+  background-image: url("https://images.ctfassets.net/81iqaqpfd8fy/20eHSGcrFmyKsKQ4yeis6Y/1566b0bf956db40814966be5017e5312/Global_Warming_2.jpg?w=1440&h=620");
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #6cadc9;
+  background-color: #6088c6;
   color: white;
   transform: rotateY(180deg);
+  border: 1px solid white;
+
 }
 
 .profileStyles {
