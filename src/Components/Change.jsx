@@ -24,32 +24,32 @@ class App extends Component {
       <div className="profileStyles">
       {this.state.show ? <h2 className="h2style"><span>Your Progress: </span>{ this.state.clicks }<span>%</span></h2> : '' }
         <h2>Home</h2>
-        <button style={{color: "white", fontSize: '15px',}}onClick={this.IncrementItem}>Energy Effcient Light Bulbs</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Install Programmable Thermostat</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Install Programmable Lightbulbs</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Remove Your Lawn</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Xeriscape Your Yard</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Solar Panels</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Unplug your Devices</button>
+        <p onClick={this.IncrementItem}>Energy Effcient Light Bulbs</p>
+        <p onClick={this.IncrementItem}>Install Programmable Thermostat</p>
+        <p onClick={this.IncrementItem}>Install Programmable Lightbulbs</p>
+        <p onClick={this.IncrementItem}>Remove Your Lawn</p>
+        <p onClick={this.IncrementItem}>Xeriscape Your Yard</p>
+        <p onClick={this.IncrementItem}>Solar Panels</p>
+        <p onClick={this.IncrementItem}>Unplug your Devices</p>
         <h2>Food</h2>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Buy Organic</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Eat Meat-Free Meals</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Reduce Food Waste</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Don't Drink Bottled Water</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Say No To Plastic</button>
+        <p onClick={this.IncrementItem}>Buy Organic</p>
+        <p onClick={this.IncrementItem}>Eat Meat-Free Meals</p>
+        <p onClick={this.IncrementItem}>Reduce Food Waste</p>
+        <p onClick={this.IncrementItem}>Don't Drink Bottled Water</p>
+        <p onClick={this.IncrementItem}>Say No To Plastic</p>
         <h2>Transportation</h2>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Walk</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Work From Home</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Public Transportation</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Ride Your Bike</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Turn Off Your Engine</button>
-        <button style={{color: "white", fontSize: '15px',}}  onClick={this.IncrementItem}>Carpool</button>
+        <p onClick={this.IncrementItem}>Walk</p>
+        <p onClick={this.IncrementItem}>Work From Home</p>
+        <p onClick={this.IncrementItem}>Public Transportation</p>
+        <p onClick={this.IncrementItem}>Ride Your Bike</p>
+        <p onClick={this.IncrementItem}>Turn Off Your Engine</p>
+        <p onClick={this.IncrementItem}>Carpool</p>
 
 
-        {/* <button onClick={this.DecreaseItem}>Click to decrease by 1</button> */}
-        {/* <button onClick={this.ToggleClick}>
+        {/* <p onClick={this.DecreaseItem}>Click to decrease by 1</p> */}
+        {/* <p onClick={this.ToggleClick}>
           { this.state.show ? 'Hide number' : 'Show number' }
-        </button> */}
+        </p> */}
       </div>
     );
   }
