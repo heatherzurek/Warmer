@@ -19,8 +19,10 @@ export default function About(props) {
       margin: '0 auto',
     }
     return (
+      <div>
+        <h1 style={{textAlign: 'center'}}>Why is stopping climate change so important?</h1>
       <div style={layoutStyles}>
-
+        
       <div className="flip-card">
         <div className="flip-card-inner">
         <div className="flip-card-front">
@@ -147,6 +149,7 @@ export default function About(props) {
           </div>
         </div>
 
+        </div>
         </div>
 
     )

@@ -65,8 +65,9 @@ code {
 .profileStyles {
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  /* justify-content: left; */
   text-align: center;
+  margin: -5px;
 }
 
 .h3style {
