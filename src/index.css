@@ -31,6 +31,10 @@ a:hover {
   background-color: #383838!important;
 }
 
+..MuiExpansionPanelSummary-root.Mui-expanded {
+  background-color: grey;
+}
+
 .flip-card {
   margin: 10px;
   background-color: transparent;
@@ -120,6 +124,32 @@ hr {
   color: #FFFFFF;
 }
 
+/* Start InfoCards component Styling */
+.MuiCardContent-root {
+  padding: 0!important;
+  
+}
+
+.MuiCardHeader-root {
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.cardLayout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+/* End InfoCards component Styling */
 
 @media only screen and (min-width: 900px){
   .card {

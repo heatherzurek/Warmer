@@ -1,8 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
+import MenuIcon from '@material-ui/icons/Menu';
 import Button from '@material-ui/core/Button';
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
@@ -11,39 +13,38 @@ import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1,
+    width: '100%',
+    textAlign: 'center',
   },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
+  heading: {
+    fontSize: theme.typography.pxToRem(15),
+    fontWeight: theme.typography.fontWeightRegular,
   },
 }));
 
-export default function Nav() {
-  const linkStyle = {
-    color: 'white',
-    textDecoration: 'none',
-  }
+export default function SimpleExpansionPanel() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="Menu">
-            <MenuIcon />
-          </IconButton> */}
-          <Typography variant="h6" className={classes.title}>
-          { <Link style={linkStyle} to ="/"><Button color="inherit">Warmer</Button></Link> }
-
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          expandIcon={<MenuIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>Warmer</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+          { <Link to ="/"><Button color="inherit">Home</Button></Link> }
+          { <Link to ="/about"><Button color="inherit">About</Button></Link> }
+          { <Link to ="/how"><Button color="inherit">Prevent</Button></Link> }
+          { <Link to ="/profile"><Button color="inherit">Profile</Button></Link> }
           </Typography>
-          { <Link style={linkStyle} to ="/about"><Button color="inherit">About</Button></Link> }
-          { <Link style={linkStyle} to ="/how"><Button color="inherit">Prevent</Button></Link> }
-          { <Link style={linkStyle} to ="/profile"><Button color="inherit">Profile</Button></Link> }
-        </Toolbar>
-      </AppBar>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+    
     </div>
   );
 }

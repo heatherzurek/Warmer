@@ -9,6 +9,7 @@ import Splash from './Components/Splash';
 import Welcome from './Components/Welcome';
 import Nav from './Components/Nav';
 import Profile from './Components/Profile';
+import DetailedExpansionPanel from './Components/Nav';
 
 
 class App extends React.Component {
@@ -32,7 +33,7 @@ class App extends React.Component {
 render(){
   return (
     <div>
-      <Nav />
+      <DetailedExpansionPanel />
       <Splash />
       <Switch>
       <Route exact path='/' component={Welcome} />
@@ -44,7 +45,6 @@ render(){
       <button onClick={this.decrementDown} className="counter">-</button>
       <h2>{this.state.count}</h2> */}
       <Footer />
-
       </div>
     );
   }
