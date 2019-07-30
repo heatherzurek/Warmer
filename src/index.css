@@ -26,13 +26,35 @@ a:hover {
   color: yellowgreen;
   font-weight: bold;
 }
-
+/* 
 .MuiToolbar-root {
+  background-color: #383838!important;
+} */
+
+.MuiExpansionPanelSummary-root {
   background-color: #383838!important;
 }
 
-..MuiExpansionPanelSummary-root.Mui-expanded {
+.MuiExpansionPanelDetails-root {
+  justify-content: center;
+  padding: 10px 10px 10px!important;
+}
+
+.MuiButton-outlinedSecondary {
+  color: white!important;
+  border: 1px solid white!important;
+}
+
+.MuiExpansionPanelSummary-root.Mui-expanded {
   background-color: grey;
+}
+
+.MuiExpansionPanelSummary-root {
+  color: #000;
+}
+
+.MuiSvgIcon-root {
+  color: white;
 }
 
 .flip-card {

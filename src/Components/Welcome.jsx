@@ -14,9 +14,9 @@ export default function Welcome(props) {
       return (
         <div style={divStyles}>
       <h1 style={{textAlign: 'center', fontSize: '50px', margin: '0'}}>Warmer</h1>
-          <div style={customModal}>
+          {/* <div style={customModal}>
           <CustomizedDialogs />
-          </div>
+          </div> */}
       <Intro />
       <div className="imageDisplays">
       <img style={{width: '320px', height: '300px', marginTop: '10px'}} src="https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2019/02/09/6a35bcce-2aba-11e9-8864-9e8ab15a22ca_image_hires_132456.JPG?itok=OYiy44rL&v=1549689899" alt="new"/>

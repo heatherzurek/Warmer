@@ -9,6 +9,8 @@ import Button from '@material-ui/core/Button';
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
+import CustomizedDialogs from './CustomizedDialogs';
+
 
 
 const useStyles = makeStyles(theme => ({
@@ -33,7 +35,8 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Warmer</Typography>
+    <CustomizedDialogs />
+          {/* <Typography className={classes.heading}>Warmer</Typography> */}
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
