@@ -6,18 +6,18 @@ import Typography from '@material-ui/core/Typography';
 const images = [
   {
     url: 'https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2019/02/09/6a35bcce-2aba-11e9-8864-9e8ab15a22ca_image_hires_132456.JPG?itok=OYiy44rL&v=1549689899',
-    title: 'About',
-    width: '40%',
+    title: 'Extreme Weather',
+    width: '33%',
   },
   {
     url: 'https://images.theconversation.com/files/285435/original/file-20190724-110187-13zyuat.JPG?ixlib=rb-1.1.0&rect=0%2C287%2C2592%2C1652&q=45&auto=format&w=496&fit=clip',
-    title: 'Prevention',
-    width: '30%',
+    title: 'Ocean Changes',
+    width: '33%',
   },
   {
     url: 'https://timedotcom.files.wordpress.com/2016/08/pollution.jpg',
-    title: 'Profile',
-    width: '30%',
+    title: 'Greenhouse Gases',
+    width: '34%',
   },
 ];
 

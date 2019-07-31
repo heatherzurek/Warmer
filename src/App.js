@@ -10,6 +10,8 @@ import Welcome from './Components/Welcome';
 // import Nav from './Components/Nav';
 import Profile from './Components/Profile';
 import DetailedExpansionPanel from './Components/Nav';
+import { ButtonBase } from '@material-ui/core';
+import ButtonBases from './Components/ButtonBases';
 
 
 class App extends React.Component {
@@ -34,7 +36,8 @@ render(){
   return (
     <div>
       <DetailedExpansionPanel />
-      <Splash />
+      <ButtonBases />
+      {/* <Splash /> */}
       <Switch>
       <Route exact path='/' component={Welcome} />
       <Route path='/how' component={How} />
