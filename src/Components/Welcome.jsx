@@ -1,8 +1,10 @@
 import React from 'react';
 import Intro from './Intro';
+import ButtonBases from './ButtonBases';
 // import ButtonBases from './ButtonBases';
 // import CustomizedDialogs from './CustomizedDialogs';
 // import AnimatedTypingComponent from './AnimatedTypingComponent';
+
 
 export default function Welcome(props) {
       const divStyles = {
@@ -19,9 +21,9 @@ export default function Welcome(props) {
           <CustomizedDialogs />
           </div> */}
       <Intro />
-      {/* <div className="imageDisplays">
+      <div className="imageDisplays">
         <ButtonBases />
-      </div> */}
+      </div>
       <hr></hr>
       <div className="resources">
         <h1>Resources</h1>

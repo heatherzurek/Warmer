@@ -117,7 +117,7 @@ export default function InfoCards() {
     <Card className={classes.card}>
       <CardMedia
         className={classes.media}
-        image="http://news.nationalgeographic.com/content/dam/news/photos/000/617/61710.jpg"
+        image="https://images.csmonitor.com/csm/2012/11/1129-Greenland-ice-sheet.jpg?alias=standard_900x600"
         title="shrinking ice sheets"
       />
       <CardContent>

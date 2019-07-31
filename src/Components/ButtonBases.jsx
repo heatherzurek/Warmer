@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 const images = [
   {
     url: 'https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2019/02/09/6a35bcce-2aba-11e9-8864-9e8ab15a22ca_image_hires_132456.JPG?itok=OYiy44rL&v=1549689899',
-    title: 'Extreme Weather',
+    title: 'Extreme Weather Patterns',
     width: '33%',
   },
   {

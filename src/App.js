@@ -11,7 +11,7 @@ import Welcome from './Components/Welcome';
 import Profile from './Components/Profile';
 import DetailedExpansionPanel from './Components/Nav';
 import { ButtonBase } from '@material-ui/core';
-import ButtonBases from './Components/ButtonBases';
+// import ButtonBases from './Components/ButtonBases';
 
 
 class App extends React.Component {
@@ -36,7 +36,7 @@ render(){
   return (
     <div>
       <DetailedExpansionPanel />
-      <ButtonBases />
+      {/* <ButtonBases /> */}
       {/* <Splash /> */}
       <Switch>
       <Route exact path='/' component={Welcome} />
