@@ -24,7 +24,7 @@ class Change extends Component {
       <div className="profileStyles">
       {this.state.show ? <h2 className="h2style"><span>Your Progress: </span>{ this.state.clicks }<span>%</span></h2> : '' }
         <h2>Home</h2>
-        <p style={{margin: '2px'}} onClick={this.IncrementItem}>Energy Effcient Light Bulbs</p>
+        <p style={{margin: '2px'}} onClick={this.IncrementItem}>Energy Efficient Light Bulbs</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Install Programmable Thermostat</p>
         <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Install Programmable Lightbulbs</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Remove Your Lawn</p>

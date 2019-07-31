@@ -1,6 +1,6 @@
 import React from 'react';
 import Intro from './Intro';
-import CustomizedDialogs from './CustomizedDialogs';
+// import CustomizedDialogs from './CustomizedDialogs';
 // import AnimatedTypingComponent from './AnimatedTypingComponent';
 
 export default function Welcome(props) {
@@ -8,9 +8,9 @@ export default function Welcome(props) {
         margin: '0 auto',
         padding: '10px',
       }
-      const customModal = {
-        textAlign: 'center',
-      }
+      // const customModal = {
+      //   textAlign: 'center',
+      // }
       return (
         <div style={divStyles}>
       <h1 style={{textAlign: 'center', fontSize: '50px', margin: '0'}}>Warmer</h1>

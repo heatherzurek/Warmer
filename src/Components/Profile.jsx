@@ -28,6 +28,7 @@ export default class Profile extends Component {
     return (
         <div>
         <Change />        
+        <hr></hr>
         <h3 className="h3style">Keep Track of addtional things you'd like to improve on:</h3>
         <form className="App" onSubmit={this.onSubmit}>
           <input value={this.state.term} onChange={this.onChange} />

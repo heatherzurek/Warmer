@@ -7,7 +7,7 @@ import How from './Components/How';
 import { Switch, Route } from 'react-router-dom';
 import Splash from './Components/Splash';
 import Welcome from './Components/Welcome';
-import Nav from './Components/Nav';
+// import Nav from './Components/Nav';
 import Profile from './Components/Profile';
 import DetailedExpansionPanel from './Components/Nav';
 
