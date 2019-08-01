@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import List from './List';
 import Change from './Change';
+import LetterAvatars from './LetterAvatars';
 
 export default class Profile extends Component {
 
@@ -27,8 +28,10 @@ export default class Profile extends Component {
   render() {
     return (
         <div>
-        <Change />        
-        <h3 className="h3style">Keep Track of addtional things you'd like to improve on:</h3>
+          <LetterAvatars />
+        <Change />
+        <hr></hr>
+        <h3 className="h3style">To Do List:</h3>
         <form className="App" onSubmit={this.onSubmit}>
           <input value={this.state.term} onChange={this.onChange} />
           <button>Submit</button>

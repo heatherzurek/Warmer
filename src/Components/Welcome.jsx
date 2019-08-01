@@ -19,7 +19,7 @@ export default function Welcome(props) {
         <h1>Resources</h1>
         <a href="https://www.nationalgeographic.org/encyclopedia/global-warming/">What is Global Warming?</a>
         <a href="https://climate.nasa.gov/resources/global-warming/">Global Warming vs. Climate Change</a>
-        <a href="https://www.ucsusa.org/">Union Of Concerned Scientists</a>  
+        <a style={{marginBottom: '25px'}}href="https://www.ucsusa.org/">Union Of Concerned Scientists</a>  
       </div>
      </div>
 

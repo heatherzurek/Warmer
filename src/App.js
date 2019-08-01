@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-// import { makeStyles } from '@material-ui/core/styles';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import How from './Components/How';
@@ -10,8 +9,6 @@ import Welcome from './Components/Welcome';
 // import Nav from './Components/Nav';
 import Profile from './Components/Profile';
 import DetailedExpansionPanel from './Components/Nav';
-import { ButtonBase } from '@material-ui/core';
-// import ButtonBases from './Components/ButtonBases';
 
 
 class App extends React.Component {
@@ -36,8 +33,6 @@ render(){
   return (
     <div>
       <DetailedExpansionPanel />
-      {/* <ButtonBases /> */}
-      {/* <Splash /> */}
       <Switch>
       <Route exact path='/' component={Welcome} />
       <Route path='/how' component={How} />

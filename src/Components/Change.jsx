@@ -56,7 +56,7 @@ class Change extends Component {
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Ride Your Bike</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Turn Off Your Engine</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Carpool</p>
-        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Pick Up Trash On Your Commute</p>
+        <p style={{margin: '2px', marginBottom: '25px'}}  onClick={this.IncrementItem}>Pick Up Trash On Your Commute</p>
 
 
 
