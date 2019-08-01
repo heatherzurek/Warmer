@@ -8,6 +8,7 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
+import Login from './Login';
 
 const styles = theme => ({
   root: {
@@ -80,9 +81,7 @@ class CustomizedDialogs extends React.Component {
           </DialogTitle>
           <DialogContent dividers>
             <Typography gutterBottom>
-              Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
-              facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum
-              at eros.
+              <Login />
             </Typography>
           </DialogContent>
           <DialogActions>

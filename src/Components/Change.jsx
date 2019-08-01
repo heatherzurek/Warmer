@@ -27,16 +27,28 @@ class Change extends Component {
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Energy Efficient Light Bulbs</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Install Programmable Thermostat</p>
         <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Install Programmable Lightbulbs</p>
+        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Change Lightbulbs to LEDS</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Remove Your Lawn</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Xeriscape Your Yard</p>
-        <p style={{margin: '2px'}} onClick={this.IncrementItem}>Solar Panels</p>
+        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Plant A Tree</p>
+
+        <p style={{margin: '2px'}} onClick={this.IncrementItem}>Install Solar Panels</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Unplug your Devices</p>
+        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Wash Clothes In Cold Water</p>
+        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Unplug Electronic Devices Not In Use</p>
+        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Recycle</p>
         <h2>Food</h2>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Buy Organic</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Eat Meat-Free Meals</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Reduce Food Waste</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Don't Drink Bottled Water</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Say No To Plastic</p>
+        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Plant Your Own Vegetable Garden</p>
+        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Compost</p>
+        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Bring Your Own Shopping Bags</p>
+        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Shop Local Produce</p>
+
+
         <h2>Transportation</h2>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Walk</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Work From Home</p>
@@ -44,6 +56,8 @@ class Change extends Component {
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Ride Your Bike</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Turn Off Your Engine</p>
         <p style={{margin: '2px'}} onClick={this.IncrementItem}>Carpool</p>
+        <p style={{margin: '2px'}}  onClick={this.IncrementItem}>Pick Up Trash On Your Commute</p>
+
 
 
         {/* <p onClick={this.DecreaseItem}>Click to decrease by 1</p> */}

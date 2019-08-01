@@ -4,12 +4,12 @@
 
 
 // const warmWelcome = [
-//   "Warmer",
+//   "2016 ​was the warmest year on record",
 // ];
 // let index = 0;
 
 // export default function AnimatedTypingComponent() {
-//   const [magicName, setMagicName] = useState("Warmer");
+//   const [magicName, setMagicName] = useState("2016 ​was the warmest year on record");
 //   const intervalRef = useRef({});
 //   const name = useTypewriter(magicName);
 //   useEffect(() => {
@@ -22,5 +22,5 @@
 //       clearInterval(intervalRef.current);
 //     };
 //   }, [magicName]);
-//   return <h1 className="cursor">{name}</h1>;
+//   return <p className="cursor">{name}</p>;
 // }
